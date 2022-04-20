@@ -30,6 +30,15 @@ p {background-color: blueviolet; width: 90px;
     height: 200px;
     margin: 15px;
     background-color: rgb(218, 212, 224);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
-.image2 {width: 550px;}
-.image3 {width: 1150px;}
+
+.image1 {background-image: url(https://images.unsplash.com/photo-1535083783855-76ae62b2914e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);}
+.image2 {width: 550px;
+    background-image: url(https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    }
+.image3 {width: 1150px;
+    background-image: url(https://images.unsplash.com/photo-1548382340-e7280a94e3ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    }
