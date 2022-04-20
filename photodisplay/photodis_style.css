@@ -8,25 +8,28 @@ body, html{
 
 section {height: 300px;
     width: 1200px;
-    margin: 10px;
     background-color: aquamarine;
 }
 
 h1 {height: 10px;
-    font-size: medium;}
+    font-size: medium;
+    text-transform: uppercase;}
 
-p {background-color: blueviolet; width: 90px;
+p {background-color: #73a942; width: 90px;
     font-size: small; 
-    text-align: left;}
+    text-align: left;
+    margin-left: 15px;}
 
 .photogrid {
     display: inline-block;
-    background-color: bisque;
+    background-color: rgb(243, 239, 234);
     margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
     }
 
-.image1, .image2, .image3 {width: 350px;
+.image1, .image2, .image3, .image4, .image5, .image6 {width: 350px;
     height: 200px;
     margin: 15px;
     background-color: rgb(218, 212, 224);
@@ -36,9 +39,14 @@ p {background-color: blueviolet; width: 90px;
     }
 
 .image1 {background-image: url(https://images.unsplash.com/photo-1535083783855-76ae62b2914e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);}
-.image2 {width: 550px;
-    background-image: url(https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+
+.image2 {background-image: url(https://images.unsplash.com/photo-1582560469753-f2598d73444a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNjaWVudGlzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);}
+
+.image3 {background: url(https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)}
+.image4, .image5 {width: 550px;
+    background-image: url(https://images.unsplash.com/photo-1471991750293-5fc0e377b550?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzQxfHxwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     }
-.image3 {width: 1150px;
-    background-image: url(https://images.unsplash.com/photo-1548382340-e7280a94e3ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+.image5 {background-image: url(https://media.istockphoto.com/photos/asian-chinese-family-chinese-new-year-reunion-dinner-having-dishes-picture-id1291474734?b=1&k=20&m=1291474734&s=170667a&w=0&h=zU0p52g1v_Ap-sTe4ds7yyV73WWhMhmxiK3bgwDOWF8=)}
+.image6 {width: 1150px;
+    background-image: url(https://media.istockphoto.com/photos/astronaut-spaceman-do-spacewalk-while-working-for-space-station-picture-id1302023022?b=1&k=20&m=1302023022&s=170667a&w=0&h=hZFNC5Cp039XjnsLlAtVJAyO7TAFdazSs1H_RrJADFQ=);
     }
