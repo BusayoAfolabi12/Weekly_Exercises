@@ -1,0 +1,35 @@
+body, html{
+    height:100%;
+    margin: 1%;
+    font-size:22px;
+    font-family:"Lato", sans-serif;
+    
+}
+
+section {height: 300px;
+    width: 1200px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+h1 {height: 10px;
+    font-size: medium;}
+
+p {background-color: blueviolet; width: 90px;
+    font-size: small; 
+    text-align: left;}
+
+.photogrid {
+    display: inline-block;
+    background-color: bisque;
+    margin-left: 12px;
+    text-align: center;
+    }
+
+.image1, .image2, .image3 {width: 350px;
+    height: 200px;
+    margin: 15px;
+    background-color: rgb(218, 212, 224);
+    }
+.image2 {width: 550px;}
+.image3 {width: 1150px;}
