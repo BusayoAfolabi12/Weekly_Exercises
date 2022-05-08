@@ -134,3 +134,7 @@ body {background-color: #60a9ff ;
         border-right: 1px solid #e1f1ff;
         padding: 25px 50px ;
     }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
