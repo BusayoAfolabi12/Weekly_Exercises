@@ -122,4 +122,15 @@ body {background-color: #60a9ff ;
 .pricing-button.is-featured:hover, 
 .pricing-button.is-featured:focus{
     background-color: #1d578a;
-    color: white;}
+    color: white;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px ;
+    }
